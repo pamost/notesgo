@@ -1,5 +1,5 @@
 # Инструменты
-Для редактирования кода написанного на Go и HTML, можно использовать Sublime Text с установленным плагином поддерживающим Go или Goland.
+Для редактирования кода написанного на Go и HTML, можно использовать Sublime Text с установленным плагином поддерживающим Go или IDE Goland.
 
 ## Набор инструментов
 Язык программирования Go в стандартной установке, поставляется вместе с набором инструментов.
@@ -73,26 +73,29 @@ Go позволяет выполнять кросс-компиляцию, для
 ### go clean
 Эта команда предназначена для очистки от файлов, созданных при компилировании, включая следующие файлы:
 
-`_obj/` // old directory of object, left by Makefiles
-`_test/` // old directory of test, left by Makefiles
-`_testmain.go` // old directory of gotest, left by Makefiles
-`test.out` // old directory of test, left by Makefiles
-`build.out` // old directory of test, left by Makefiles
-`*.[568ao]` // object files, left by Makefiles
+`_obj/` // old directory of object, left by Makefiles  
+`_test/` // old directory of test, left by Makefiles  
+`_testmain.go` // old directory of gotest, left by Makefiles  
+`test.out` // old directory of test, left by Makefiles  
+`build.out` // old directory of test, left by Makefiles  
+`*.[568ao]` // object files, left by Makefiles  
 
-`DIR(.exe)` // генерируется после go build
-`DIR.test(.exe)` // генерируется после go test -c
-`MAINFILE(.exe)` // генерируется после go build MAINFILE.go
+`DIR(.exe)` // генерируется после go build  
+`DIR.test(.exe)` // генерируется после go test -c  
+`MAINFILE(.exe)` // генерируется после go build MAINFILE.go  
 
 
 ## Остальные инструменты
 
 Go предоставляет больше команд, чем те, о которых только что было сказано выше.  
 ```
-go fix // апгрейд кода
-go version // информация о вашей версии Go
-go env // просмотр переменных среды Go
-go list // список всех установленных пакетов
-go run // компиляция временного бинарного файла и запуск приложения
+go fix // апгрейд кода  
+go version // информация о вашей версии Go  
+go env // просмотр переменных среды Go  
+go list // список всех установленных пакетов  
+go run // компиляция временного бинарного файла и запуск приложения  
 ```
+
+Дополнительные сведения о конкретных командах см., `go help <command>`.
+
 ===
