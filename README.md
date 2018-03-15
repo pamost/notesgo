@@ -7,7 +7,7 @@
 * **[Инструменты](https://github.com/pamost/notesgo/blob/master/01_Tools.md)**
 	* Набор инструментов
 
-* **Привет, Go**
+* **[Привет, Go](https://github.com/pamost/notesgo/blob/master/02_Hello.md)**
 	* Почему Go ?
 
 * **Переменные и структуры данных**
