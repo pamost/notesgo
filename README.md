@@ -10,7 +10,7 @@
 * **[Привет, Go](https://github.com/pamost/notesgo/blob/master/02_Hello.md)**
 	* Почему Go ?
 
-* **Переменные и структуры данных**
+* **[Переменные и структуры данных](https://github.com/pamost/notesgo/blob/master/03_VarDataStruct.md)**
 	* Переменные
 	* Базовые структуры данных
 	* Важные моменты
